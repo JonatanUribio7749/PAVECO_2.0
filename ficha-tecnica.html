@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ficha técnica de PAVECO">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ficha Técnica - PAVECO</title>
+    <link rel="icon" href="img/core-img/logo.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Top Header Area -->
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="header-content h-100 d-flex align-items-center justify-content-between">
+                            <div class="academy-logo">
+                                <a href="index.html"><img src="img/core-img/logo.png" alt="Logo PAVECO"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar Area -->
+        <div class="academy-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <nav class="classy-navbar justify-content-between" id="academyNav">
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="#">Noticias</a>
+                                        <ul class="dropdown">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="elements.html">Estadísticas</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Ficha técnica</a>
+                                        <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li>
+                                                    <a href="#ficha-general" class="ficha-link">Ficha técnica general</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li>
+                                                    <a href="#especificaciones" class="ficha-link">Especificaciones</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li>
+                                                    <a href="#manejo" class="ficha-link">Manejo del producto</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="about-us.html">Sobre nosotros</a></li>
+                                    <li><a href="contact.html">Contacto</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Calling Info -->
+                        <div class="calling-info">
+                            <div class="call-center">
+                                <a href="https://wa.me/5493815391065" target="_blank">
+                                    <i class="icon-telephone-2"></i>
+                                    <span>¡Comunícate!</span>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Ficha Técnica Section Start ##### -->
+    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/1.png);">
+        <div class="bradcumbContent">
+            <h2>Ficha Técnica</h2>
+        </div>
+    </div>
+
+    <section class="ficha-tecnica section-padding-100">
+        <div class="container">
+            <div class="row">
+                <!-- Ficha Técnica General -->
+                <div id="ficha-general" class="col-12 mb-50">
+                    <h3 class="text-center">Ficha Técnica General</h3>
+                    <img src="img/bg-img/ficha-general.png" alt="Ficha Técnica General" class="img-fluid">
+                </div>
+                <!-- Especificaciones -->
+                <div id="especificaciones" class="col-12 mb-50">
+                    <h3 class="text-center">Especificaciones</h3>
+                    <img src="img/bg-img/especificaciones.png" alt="Especificaciones" class="img-fluid">
+                </div>
+                <!-- Manejo del Producto -->
+                <div id="manejo" class="col-12">
+                    <h3 class="text-center">Manejo del Producto</h3>
+                    <img src="img/bg-img/manejo.png" alt="Manejo del Producto" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Ficha Técnica Section End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="main-footer-area section-padding-100-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Widget Area -->
+                    <div class="col-12">
+                        <div class="footer-widget mb-100 text-center">
+                            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> PAVECO - Todos los derechos reservados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### JavaScript ##### -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script>
+        // Smooth scrolling to sections
+        document.querySelectorAll('.ficha-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const section = document.querySelector(this.getAttribute('href'));
+                section.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+
+</html>
