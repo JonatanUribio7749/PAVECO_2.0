@@ -1,79 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Encuestas sobre baches en la ciudad">
+    <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Paveco - Estadísticas</title>
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>PAVECO - Asfalto ecológico</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/logo.ico">
+
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
 
-        .statistics-title {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 2.5rem;
-            color: #4CAF50;
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        .statistics-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-        }
-
-        .stat-box {
-            background: #f9f9f9;
-            margin: 10px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-            text-align: center;
-            width: 45%;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .stat-box:hover {
-            transform: scale(1.05);
-            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-        }
-
-        .stat-box h3 {
-            color: #333;
-            font-size: 1.8rem;
-        }
-
-        .stat-box p {
-            font-size: 1.2rem;
-        }
-
-        .emoji {
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
 </head>
 
 <body>
+    <!-- ##### Preloader ##### -->
+    <div id="preloader">
+        <i class="circle-preloader"></i>
+    </div>
+
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
 
@@ -128,21 +79,21 @@
                                             <ul class="single-mega cn-col-4">
                                                 <li>
                                                     <img src="img/ficha-general.png" alt="Ficha técnica general" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
-                                                    <a href="#">Ficha técnica general</a>
+                                                    <a href="ficha-tecnica.html#ficha-general">Ficha técnica general</a>
                                                 </li>
                                             </ul>
                                             <!-- Segunda columna: Especificaciones -->
                                             <ul class="single-mega cn-col-4">
                                                 <li>
                                                     <img src="img/especificaciones.png" alt="Especificaciones" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
-                                                    <a href="#">Especificaciones</a>
+                                                    <a href="ficha-tecnica.html#especificaciones">Especificaciones</a>
                                                 </li>
                                             </ul>
                                             <!-- Tercera columna: Forma de manejo -->
                                             <ul class="single-mega cn-col-4">
                                                 <li>
                                                     <img src="img/forma-de-manejo.png" alt="PAVECO VS otros asfaltos" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
-                                                    <a href="#">PAVECO VS otros asfaltos</a>
+                                                    <a href="ficha-tecnica.html#manejo">Manejo del producto</a>
                                                 </li>
                                             </ul>
                                             <!-- Imagen adicional -->
@@ -175,63 +126,329 @@
     </header>
     <!-- ##### Header Area End ##### -->
 
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/1.png);">
         <div class="bradcumbContent">
-            <h2 class="statistics-title">Estadísticas sobre Baches</h2>
+            <h2>Estadistícas</h2>
         </div>
     </div>
+    <!-- ##### Breadcumb Area End ##### -->
 
-    <section class="statistics-container">
-        <div class="stat-box">
-            <div class="emoji">📊</div>
-            <h3>Frecuencia de baches</h3>
-            <p>El <strong>57.1%</strong> de los encuestados reporta encontrar baches diariamente.</p>
+    <!-- ##### Elements Area Start ##### -->
+    <section class="elements-area mt-50 section-padding-100-0">
+        <div class="container">
+            <div class="row">
+
+
+                <!-- ========== Progress Bars & Accordions ========== -->
+                <div class="col-12">
+                    <div class="elements-title mb-50">
+                        <span>Nuestro equipo realizo múltiples</span>
+                        <h2>ENCUESTAS A TODOS LOS CIUDADANOS</h2>
+                    </div>
+                </div>
+
+                <!-- ##### Accordians ##### -->
+                <div class="col-12 col-lg-6">
+                    <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
+                        <!-- single accordian area -->
+                        <div class="panel single-accordion">
+                            <div id="collapseOne" class="accordion-content collapse show">
+                                <p>Los baches en la ciudad representan un problema que afecta la movilidad y seguridad vial. Realizamos encuestas para entender cómo impactan en la vida diaria y cómo el asfalto ecológico puede ser una solución sostenible. Se tuvieron presentes a cien personas para contar sus distintas realidades con respecto a la problematica de los baches en la vía pública.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row align-items-center central-section" style="position: relative; background-image: url('img/bg-img/asfalto\ portada.png'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 50px 20px;">
+                    <!-- Texto -->
+                    <div class="col-12 col-md-6">
+                        <div class="content-text" style="position: relative; z-index: 2; background-color: rgba(0, 0, 0, 0.6); color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);">
+                            <h3 class="tab-title" style="font-size: 24px; font-weight: bold; margin-bottom: 15px;">Resultados de la encuesta</h3>
+                            <ul style="list-style-type: disc; padding-left: 20px;">
+<h5>La encuesta reveló un fuerte descontento entre los usuarios debido a la problemática recurrente de los baches, los cuales impactan negativamente en la seguridad vial y aumentan los costos de mantenimiento vehicular. Más del 85% de los participantes destacó la necesidad de soluciones más duraderas, mientras que el 90% valoró a PAVECO como una alternativa eficiente gracias a su fácil aplicación en cualquier clima y su resistencia a temperaturas extremas (-50°C a +80°C). Estos resultados subrayan la urgencia de mejorar la infraestructura vial con propuestas sostenibles y de alto rendimiento.</h5>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <!-- Imágenes -->
+                    <div class="col-12 col-md-6 d-flex justify-content-end">
+                        <div class="content-images">
+                            <figure class="image-box" style="margin: 10px; text-align: center;">
+                                <img src="img/core-img/logo-2.png" alt="Aplicación de asfalto ecológico" style="width: 100%; max-width: 350px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ========== Milestones ========== -->
+                <div class="col-12">
+                    <div class="elements-title mb-50">
+                        <span>Esto señalaron</span>
+                        <h2>PEATONES Y CONDUCTORES:</h2>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="academy-cool-facts-area mb-50">
+                        <div class="row">
+                
+                            <!-- Single Cool Fact: Baches molestos -->
+                            <div class="col-12 col-sm-6 col-md-3">
+                                <div class="single-cool-fact text-center">
+                                    <i class="icon-warning" style="font-size: 50px; color: #f39c12;"></i> <!-- Ícono de advertencia -->
+                                    <h3><span class="counter">95</span>%</h3>
+                                    <p>Encuentran baches molestos</p>
+                                </div>
+                            </div>
+                
+                            <!-- Single Cool Fact: Reclamos a las autoridades -->
+                            <div class="col-12 col-sm-6 col-md-3">
+                                <div class="single-cool-fact text-center">
+                                    <i class="icon-bullhorn" style="font-size: 50px; color: #3498db;"></i> <!-- Ícono de reclamos -->
+                                    <h3><span class="counter">85</span>%</h3>
+                                    <p>Realizaron reclamos a autoridades</p>
+                                </div>
+                            </div>
+                
+                            <!-- Single Cool Fact: Intervención nula -->
+                            <div class="col-12 col-sm-6 col-md-3">
+                                <div class="single-cool-fact text-center">
+                                    <i class="icon-times" style="font-size: 50px; color: #e74c3c;"></i> <!-- Ícono de "nulo" o "rechazo" -->
+                                    <h3><span class="counter">100</span>%</h3>
+                                    <p>Intervención nula o de baja calidad</p>
+                                </div>
+                            </div>
+                
+                            <!-- Single Cool Fact: Reparación del vehículo -->
+                            <div class="col-12 col-sm-6 col-md-3">
+                                <div class="single-cool-fact text-center">
+                                    <i class="icon-wrench" style="font-size: 50px; color: #2ecc71;"></i> <!-- Ícono de reparación -->
+                                    <h3><span class="counter">70</span>%</h3>
+                                    <p>Pagaron reparaciones de vehículos</p>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+
+<!-- ========== Opiniones sobre el producto ========== -->
+<div class="col-12">
+    <div class="elements-title mb-50">
+        <span>Con respecto a</span>
+        <h2>NUESTRO PRODUCTO SU OPINIÓN FUE:</h2>
+    </div>
+</div>
+
+<div class="col-12">
+    <!-- Opiniones Area Start -->
+    <div class="our-skills-area text-center mb-100">
+        <div class="row">
+
+            <!-- Opinión: Calidad del producto -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="single-pie-bar mb-30" data-percent="95">
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                    <h6>Calidad del producto</h6>
+                </div>
+            </div>
+
+            <!-- Opinión: Facilidad de uso -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="single-pie-bar mb-30" data-percent="90">
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                    <h6>Facilidad de uso</h6>
+                </div>
+            </div>
+
+            <!-- Opinión: Impacto ambiental -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="single-pie-bar mb-30" data-percent="85">
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                    <h6>Impacto ambiental reducido</h6>
+                </div>
+            </div>
+
+            <!-- Opinión: Satisfacción general -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="single-pie-bar mb-30" data-percent="98">
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                    <h6>Satisfacción general</h6>
+                </div>
+            </div>
+
         </div>
-        <div class="stat-box">
-            <div class="emoji">🚗</div>
-            <h3>Impacto en la vida diaria</h3>
-            <ul>
-                <li><strong>Inseguridad vial:</strong> 38.1%</li>
-                <li><strong>Aumento del estrés:</strong> 38.1%</li>
-                <li><strong>Daños en vehículos:</strong> 14.3%</li>
-                <li><strong>Retrasos:</strong> 9.5%</li>
-            </ul>
+    </div>
+</div>
+
+<!-- ========== Icon Boxes ========== -->
+<div class="col-12">
+    <div class="elements-title mb-50">
+        <span>Entonces en</span>
+        <h2>CONCLUSIÓN</h2>
+    </div>
+</div>
+
+<div class="col-12">
+    <div class="row">
+        <!-- Razón 1: Ecológico -->
+        <div class="col-12 col-lg-4">
+            <div class="single-course-area d-flex align-items-center mb-100">
+                <div class="course-icon">
+                    <img src="img/icon-img/eco.png" alt="Ecológico" style="width: 70px; height: 70px;">
+                </div>
+                <div class="course-content">
+                    <h4>Ecológico</h4>
+                    <p>Reduce el impacto ambiental gracias a su formulación amigable con el medio ambiente.</p>
+                </div>
+            </div>
         </div>
-        <div class="stat-box">
-            <div class="emoji">📝</div>
-            <h3>Reportes realizados</h3>
-            <p>El <strong>85.7%</strong> nunca reportó un bache.</p>
+
+        <!-- Razón 2: Fácil de aplicar -->
+        <div class="col-12 col-lg-4">
+            <div class="single-course-area d-flex align-items-center mb-100">
+                <div class="course-icon">
+                    <img src="img/icon-img/facil.png" alt="Fácil de aplicar" style="width: 70px; height: 70px;">
+                </div>
+                <div class="course-content">
+                    <h4>Fácil de aplicar</h4>
+                    <p>Puede ser usado por cualquier persona sin necesidad de maquinaria pesada o conocimientos avanzados.</p>
+                </div>
+            </div>
         </div>
-        <div class="stat-box">
-            <div class="emoji">🔧</div>
-            <h3>Reparación</h3>
-            <p>El <strong>100%</strong> de baches reportados no se ha reparado.</p>
+
+        <!-- Razón 3: Impermeable -->
+        <div class="col-12 col-lg-4">
+            <div class="single-course-area d-flex align-items-center mb-100">
+                <div class="course-icon">
+                    <img src="img/icon-img/imp.png" alt="Impermeable" style="width: 70px; height: 70px;">
+                </div>
+                <div class="course-content">
+                    <h4>Impermeable</h4>
+                    <p>Resiste condiciones climáticas adversas, asegurando durabilidad y eficacia en cualquier temporada.</p>
+                </div>
+            </div>
         </div>
+    </div>
+</div>
+
     </section>
+    <!-- ***** Elements Area End ***** -->
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
         <div class="main-footer-area section-padding-100-0">
             <div class="container">
                 <div class="row">
+                    <!-- Footer Widget Area -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
                             <div class="widget-title">
-                                <a href="#"><img src="img/core-img/logo-3.png" alt="Paveco Logo"></a>
+                                <a href="#"><img src="img/core-img/logo-3.png" alt=""></a>
                             </div>
-                            <p>PAVECO ofrece soluciones innovadoras y ecológicas para la reparación vial.</p>
+                            <p>PAVECO ofrece soluciones innovadoras y ecológicas para la reparación vial, combinando calidad, durabilidad y compromiso con el medio ambiente."</p>
                             <div class="footer-social-info">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/paveco.asfalto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=61552672778681" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/guido-dangelo-305b11199/?originalSubdomain=ar" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+<!-- Footer Widget Area -->
+<div class="col-12 col-sm-6 col-lg-3">
+    <div class="footer-widget mb-100">
+        <div class="widget-title">
+            <h6>Enlaces destacados</h6>
+        </div>
+        <nav>
+            <ul class="useful-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about-us.html">Sobre nosotros</a></li>
+                <li><a href="blog.html">Noticias</a></li>
+                <li><a href="ficha-tecnica.html">Ficha técnica</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Trabajos realizados</h6>
+                            </div>
+                            <div class="gallery-list d-flex justify-content-between flex-wrap">
+                                <a href="img/bg-img/bg-8.png" class="gallery-img" title="Gallery Image 1"><img src="img/bg-img/bg-8.png" alt=""></a>
+                                <a href="img/bg-img/bg-9.png" class="gallery-img" title="Gallery Image 2"><img src="img/bg-img/bg-9.png" alt=""></a>
+                                <a href="img/bg-img/bg-5.jpg" class="gallery-img" title="Gallery Image 3"><img src="img/bg-img/bg-5.jpg" alt=""></a>
+                                <a href="img/bg-img/bg-4.png" class="gallery-img" title="Gallery Image 4"><img src="img/bg-img/bg-4.png" alt=""></a>
+                                <a href="img/bg-img/bg-3.jpg" class="gallery-img" title="Gallery Image 5"><img src="img/bg-img/bg-3.jpg" alt=""></a>
+                                <a href="img/bg-img/bg-2.jpg" class="gallery-img" title="Gallery Image 6"><img src="img/bg-img/bg-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Contacto</h6>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-placeholder"></i>
+                                <p>Oficina central: Perú 863, CABA</p>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-telephone-1"></i>
+                                <p>Tel 1: +54 9 3815 39-1065 <br>Tel 2: +54 9 11 3612-5667</p>
+                            </div>
+                            <div class="single-contact d-flex">
+                                <i class="icon-contract"></i>
+                                <p>Ventas@paveco.com.ar</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="bottom-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright PAVECO &copy;<script>document.write(new Date().getFullYear());</script>| Todos los derechos reservados.
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    <!-- ##### Footer Area End ##### -->
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/impactoBachesChart.js"></script>
 </body>
 
 </html>

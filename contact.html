@@ -9,7 +9,7 @@
     <!-- Title -->
     <title>Contacto - PAVECO</title>
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="./img/core-img/logo.ico">
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,8 +20,10 @@
         <i class="circle-preloader"></i>
     </div>
 
-    <!-- Header -->
+    <!-- ##### Header Area Start ##### -->
     <header class="header-area">
+
+        <!-- Top Header Area -->
         <div class="top-header">
             <div class="container h-100">
                 <div class="row h-100">
@@ -35,28 +37,72 @@
                 </div>
             </div>
         </div>
-        <!-- Navbar -->
+
+        <!-- Navbar Area -->
         <div class="academy-main-menu">
             <div class="classy-nav-container breakpoint-off">
                 <div class="container">
+                    <!-- Menu -->
                     <nav class="classy-navbar justify-content-between" id="academyNav">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
                         <!-- Menu -->
                         <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="about-us.html">Sobre Nosotros</a></li>
+                                    <li><a href="#">Noticias</a>
+                                        <ul class="dropdown">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="elements.html">Estadísticas </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Ficha técnica</a>
+                                        <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li>
+                                                    <img src="img/ficha-general.png" alt="Ficha técnica general" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
+                                                    <a href="ficha-tecnica.html#ficha-general">Ficha técnica general</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li>
+                                                    <img src="img/especificaciones.png" alt="Especificaciones" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
+                                                    <a href="ficha-tecnica.html#especificaciones">Especificaciones</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li>
+                                                    <img src="img/forma-de-manejo.png" alt="PAVECO VS otros asfaltos" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
+                                                    <a href="ficha-tecnica.html#manejo">Manejo del producto</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="about-us.html">Sobre nosotros</a></li>
                                     <li><a href="course.html">Usos</a></li>
                                     <li><a href="contact.html">Contacto</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <!-- Info -->
+
+                        <!-- Calling Info -->
                         <div class="calling-info">
                             <div class="call-center">
-                                <a href="mailto:ventas@paveco.com.ar">
-                                    <i class="icon-contract"></i>
-                                    <span>ventas@paveco.com.ar</span>
+                                <a href="https://wa.me/5493815391065" target="_blank" rel="noopener noreferrer">
+                                    <i class="icon-telephone-2"></i>
+                                    <span>¡Comunícate!</span>
                                 </a>
                             </div>
                         </div>
@@ -65,6 +111,7 @@
             </div>
         </div>
     </header>
+    <!-- ##### Header Area End ##### -->
 
     <!-- Breadcumb -->
     <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/1.png);">
@@ -82,56 +129,54 @@
     </div>
 
     <!-- Contact Area -->
-    <section class="contact-area section-padding-100">
+    <section class="contact-area section-padding-100" style="background-image: url('img/bg-img/bg-7.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="contact-content">
+                    <div class="contact-content" style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px;">
                         <div class="row">
                             <!-- Contact Info -->
                             <div class="col-12 col-lg-5">
                                 <div class="contact-information wow fadeInUp" data-wow-delay="400ms">
                                     <div class="section-heading text-left">
                                         <span>Estamos aquí para ayudarte</span>
-                                        <h3>Contáctanos</h3>
-                                        <p>¿Tienes preguntas sobre nuestros productos o servicios? No dudes en comunicarte con nosotros, nuestro equipo estará encantado de atenderte.</p>
+                                        <h3 style="color: #fff;">Contáctanos</h3>
+                                        <p style="color: #ccc;">¿Tienes preguntas sobre nuestros productos o servicios? No dudes en comunicarte con nosotros, nuestro equipo estará encantado de atenderte.</p>
                                     </div>
-                                    <!-- Social Info -->
                                     <div class="contact-social-info d-flex mb-30">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
                                         <a href="#"><i class="fa fa-instagram"></i></a>
                                     </div>
-                                    <!-- Contact Details -->
                                     <div class="single-contact-info d-flex mb-30">
                                         <div class="contact-icon mr-15">
                                             <i class="icon-placeholder"></i>
                                         </div>
-                                        <p>Oficina central: Perú 863, CABA</p>
+                                        <p style="color: #fff;">Oficina central: Perú 863, CABA</p>
                                     </div>
                                     <div class="single-contact-info d-flex mb-30">
                                         <div class="contact-icon mr-15">
                                             <i class="icon-telephone-1"></i>
                                         </div>
-                                        <p>Tel: +54 9 381 539-1065</p>
+                                        <p style="color: #fff;">Tel: +54 9 381 539-1065</p>
                                     </div>
                                     <div class="single-contact-info d-flex">
                                         <div class="contact-icon mr-15">
                                             <i class="icon-contract"></i>
                                         </div>
-                                        <p>ventas@paveco.com.ar</p>
+                                        <p style="color: #fff;">ventas@paveco.com.ar</p>
                                     </div>
                                 </div>
                             </div>
-                        <!-- Contact Form Area -->
+                            <!-- Contact Form Area -->
                             <div class="col-12 col-lg-7">
-                            <div class="contact-form-area wow fadeInUp" data-wow-delay="500ms" style="background-image: url('img/bg-img/f-contact.jpg'); background-size: cover; background-position: center; padding: 30px; border-radius: 10px;">
-                            <form action="mailto:ventas@paveco.com.ar" method="post" enctype="text/plain" style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px; color: #fff;">
-                            <input type="text" class="form-control mb-3" name="name" placeholder="Tu nombre" required style="background-color: rgba(255, 255, 255, 0.8); color: #333;">
-                            <input type="email" class="form-control mb-3" name="email" placeholder="Tu correo" required style="background-color: rgba(255, 255, 255, 0.8); color: #333;">
-                            <textarea name="message" class="form-control mb-3" cols="30" rows="10" placeholder="Tu mensaje" style="background-color: rgba(255, 255, 255, 0.8); color: #333;"></textarea>
-                            <button class="btn academy-btn mt-30" type="submit">Enviar mensaje</button>
-                            </form>
-                            </div>
+                                <div class="contact-form-area wow fadeInUp" data-wow-delay="500ms" style="background-color: rgba(255, 255, 255, 0.8); padding: 30px; border-radius: 10px;">
+                                    <form action="mailto:ventas@paveco.com.ar" method="post" enctype="text/plain">
+                                        <input type="text" class="form-control mb-3" name="name" placeholder="Tu nombre" required>
+                                        <input type="email" class="form-control mb-3" name="email" placeholder="Tu correo" required>
+                                        <textarea name="message" class="form-control mb-3" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                                        <button class="btn academy-btn mt-30" type="submit">Enviar mensaje</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -153,30 +198,38 @@
                             </div>
                             <p>PAVECO ofrece soluciones innovadoras y ecológicas para la reparación vial, combinando calidad, durabilidad y compromiso con el medio ambiente."</p>
                             <div class="footer-social-info">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-behance"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/paveco.asfalto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=61552672778681" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/guido-dangelo-305b11199/?originalSubdomain=ar" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
                             </div>
+                            
                         </div>
                     </div>
-                    <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="footer-widget mb-100">
-                            <div class="widget-title">
-                                <h6>Enlaces destacados</h6>
-                            </div>
-                            <nav>
-                                <ul class="useful-links">
-                                    <li><a href="#">Inicio</a></li>
-                                    <li><a href="#">Sobre nosotros</a></li>
-                                    <li><a href="#">Noticias</a></li>
-                                    <li><a href="#">Ficha técnica</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
+<!-- Footer Widget Area -->
+<div class="col-12 col-sm-6 col-lg-3">
+    <div class="footer-widget mb-100">
+        <div class="widget-title">
+            <h6>Enlaces destacados</h6>
+        </div>
+        <nav>
+            <ul class="useful-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about-us.html">Sobre nosotros</a></li>
+                <li><a href="blog.html">Noticias</a></li>
+                <li><a href="ficha-tecnica.html">Ficha técnica</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
                     <!-- Footer Widget Area -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="footer-widget mb-100">
@@ -231,15 +284,10 @@ Copyright PAVECO &copy;<script>document.write(new Date().getFullYear());</script
     <!-- ##### Footer Area Start ##### -->
 
     <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
     <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
     <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
     <script src="js/active.js"></script>
 </body>
 

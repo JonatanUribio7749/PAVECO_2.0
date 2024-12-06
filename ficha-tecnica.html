@@ -12,108 +12,172 @@
 </head>
 
 <body>
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-        <!-- Top Header Area -->
-        <div class="top-header">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 h-100">
-                        <div class="header-content h-100 d-flex align-items-center justify-content-between">
-                            <div class="academy-logo">
-                                <a href="index.html"><img src="img/core-img/logo.png" alt="Logo PAVECO"></a>
-                            </div>
+<!-- ##### Header Area Start ##### -->
+<header class="header-area">
+
+    <!-- Top Header Area -->
+    <div class="top-header">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <div class="header-content h-100 d-flex align-items-center justify-content-between">
+                        <div class="academy-logo">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Navbar Area -->
-        <div class="academy-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <nav class="classy-navbar justify-content-between" id="academyNav">
-                        <!-- Menu -->
-                        <div class="classy-menu">
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="#">Noticias</a>
-                                        <ul class="dropdown">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="elements.html">Estadísticas</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Ficha técnica</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li>
-                                                    <a href="#ficha-general" class="ficha-link">Ficha técnica general</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li>
-                                                    <a href="#especificaciones" class="ficha-link">Especificaciones</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li>
-                                                    <a href="#manejo" class="ficha-link">Manejo del producto</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="about-us.html">Sobre nosotros</a></li>
-                                    <li><a href="contact.html">Contacto</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Calling Info -->
-                        <div class="calling-info">
-                            <div class="call-center">
-                                <a href="https://wa.me/5493815391065" target="_blank">
-                                    <i class="icon-telephone-2"></i>
-                                    <span>¡Comunícate!</span>
-                                </a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
-
-    <!-- ##### Ficha Técnica Section Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/1.png);">
-        <div class="bradcumbContent">
-            <h2>Ficha Técnica</h2>
-        </div>
     </div>
 
-    <section class="ficha-tecnica section-padding-100">
-        <div class="container">
-            <div class="row">
-                <!-- Ficha Técnica General -->
-                <div id="ficha-general" class="col-12 mb-50">
-                    <h3 class="text-center">Ficha Técnica General</h3>
-                    <img src="img/bg-img/ficha-general.png" alt="Ficha Técnica General" class="img-fluid">
-                </div>
-                <!-- Especificaciones -->
-                <div id="especificaciones" class="col-12 mb-50">
-                    <h3 class="text-center">Especificaciones</h3>
-                    <img src="img/bg-img/especificaciones.png" alt="Especificaciones" class="img-fluid">
-                </div>
-                <!-- Manejo del Producto -->
-                <div id="manejo" class="col-12">
-                    <h3 class="text-center">Manejo del Producto</h3>
-                    <img src="img/bg-img/manejo.png" alt="Manejo del Producto" class="img-fluid">
-                </div>
+    <!-- Navbar Area -->
+    <div class="academy-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="academyNav">
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="blog.html">Noticias</a>
+                                </li>
+                                <li><a href="#">Ficha técnica</a>
+                                    <div class="megamenu">
+                                        <!-- Primera columna: Ficha técnica general -->
+                                        <ul class="single-mega cn-col-4">
+                                            <li>
+                                                <img src="img/ficha-general.png" alt="Ficha técnica general" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
+                                                <a href="ficha-tecnica.html#ficha-general">Ficha técnica general</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Segunda columna: Especificaciones -->
+                                        <ul class="single-mega cn-col-4">
+                                            <li>
+                                                <img src="img/especificaciones.png" alt="Especificaciones" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
+                                                <a href="ficha-tecnica.html#especificaciones">Especificaciones</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Tercera columna: Forma de manejo -->
+                                        <ul class="single-mega cn-col-4">
+                                            <li>
+                                                <img src="img/forma-de-manejo.png" alt="PAVECO VS otros asfaltos" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
+                                                <a href="ficha-tecnica.html#manejo">Manejo del producto</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Imagen adicional -->
+                                        <div class="single-mega cn-col-4">
+                                            <img src="img/bg-img/images.jpeg" alt="Material PAVECO" style="width: 150px; height: auto; display: block; margin: 0 auto; border-radius: 5px;">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="about-us.html">Sobre nosotros</a></li>
+                                <li><a href="course.html">Usos</a></li>
+                                <li><a href="contact.html">Contacto</a></li>
+                            </ul>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+
+                    <!-- Calling Info -->
+                    <div class="calling-info">
+                        <div class="call-center">
+                            <a href="https://wa.me/5493815391065" target="_blank" rel="noopener noreferrer">
+                                <i class="icon-telephone-2"></i>
+                                <span>¡Comunícate!</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
-    </section>
-    <!-- ##### Ficha Técnica Section End ##### -->
+    </div>
+</header>
+<!-- ##### Header Area End ##### -->
+
+<!-- ##### Ficha Técnica Section Start ##### -->
+<div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/1.png);">
+    <div class="bradcumbContent">
+        <h2>Ficha Técnica</h2>
+    </div>
+</div>
+
+<section class="ficha-tecnica section-padding-100">
+    <div class="container">
+        <div class="row">
+            <!-- Ficha Técnica General -->
+            <div id="ficha-general" class="col-12 mb-50">
+                <h3 class="text-center">Ficha Técnica General</h3>
+                <img src="img/bg-img/ficha-general.png" alt="Ficha Técnica General" class="img-fluid">
+                <p class="text-justify mt-3">
+                    Nuestra Ficha Técnica General reúne información esencial sobre las propiedades del producto, tales como:
+                    <ul>
+                        <li>Punto de ebullición: 212° F</li>
+                        <li>Gravedad específica: 1.0 – 1.10</li>
+                        <li>Aspecto y olor: Líquido marrón con un olor suave.</li>
+                        <li>Peso por galón: 8.4 libras</li>
+                        <li>No inflamable y bajo porcentaje de volatilidad.</li>
+                    </ul>
+                </p>
+                <p class="text-justify">
+                    Estas características aseguran que el producto se adapte a una amplia variedad de usos en infraestructura vial, cumpliendo con las normas internacionales más estrictas.
+                </p>
+            </div>
+
+            <!-- Especificaciones -->
+            <div id="especificaciones" class="col-12 mb-50">
+                <h3 class="text-center">Especificaciones</h3>
+                <img src="img/bg-img/especificaciones.png" alt="Especificaciones" class="img-fluid">
+                <p class="text-justify mt-3">
+                    Este producto cumple con las especificaciones AASHTO M208 y ASTM D2397, reconocidas internacionalmente, y ha sido aprobado por varios departamentos de transporte en Estados Unidos.
+                    <ul>
+                        <li>Viscosidad Saybolt-Furol (25°C): 20-100 segundos</li>
+                        <li>Residuo por destilación: mínimo 57%</li>
+                        <li>Penetración (77°F, 100 g, 5 seg): 40 – 90</li>
+                        <li>Ductilidad (25°C, 5 cm/min): mínimo 40 cm</li>
+                    </ul>
+                </p>
+                <p class="text-justify">
+                    Estas especificaciones garantizan un rendimiento superior en condiciones de alta exigencia, brindando durabilidad y calidad en proyectos de pavimentación y bacheo.
+                </p>
+            </div>
+
+            <!-- Manejo del Producto -->
+            <div id="manejo" class="col-12">
+                <h3 class="text-center">Manejo del Producto</h3>
+                <img src="img/bg-img/manejo.png" alt="Manejo del Producto" class="img-fluid">
+                <p class="text-justify mt-3">
+                    El manejo adecuado del producto es esencial para garantizar su efectividad. Aquí tienes las mejores prácticas:
+                    <ul>
+                        <li>Proteja la emulsión de temperaturas extremas para evitar daños.</li>
+                        <li>Evite el sobrecalentamiento, ya que puede alterar las propiedades químicas.</li>
+                        <li>Utilice bombas de bajo cizallamiento para transferir el producto sin afectar su calidad.</li>
+                        <li>Almacene en un lugar seco y fresco para mantener sus propiedades intactas hasta su aplicación.</li>
+                    </ul>
+                </p>
+                <p class="text-justify">
+                    Estas medidas aseguran que el producto mantenga su calidad durante el almacenamiento y aplicación, optimizando los resultados en cada proyecto.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Ficha Técnica Section End ##### -->
+
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
@@ -121,16 +185,96 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Widget Area -->
-                    <div class="col-12">
-                        <div class="footer-widget mb-100 text-center">
-                            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> PAVECO - Todos los derechos reservados.</p>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <a href="#"><img src="img/core-img/logo-3.png" alt=""></a>
+                            </div>
+                            <p>PAVECO ofrece soluciones innovadoras y ecológicas para la reparación vial, combinando calidad, durabilidad y compromiso con el medio ambiente."</p>
+                            <div class="footer-social-info">
+                                <a href="https://www.instagram.com/paveco.asfalto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=61552672778681" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/guido-dangelo-305b11199/?originalSubdomain=ar" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+<!-- Footer Widget Area -->
+<div class="col-12 col-sm-6 col-lg-3">
+    <div class="footer-widget mb-100">
+        <div class="widget-title">
+            <h6>Enlaces destacados</h6>
+        </div>
+        <nav>
+            <ul class="useful-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about-us.html">Sobre nosotros</a></li>
+                <li><a href="blog.html">Noticias</a></li>
+                <li><a href="ficha-tecnica.html">Ficha técnica</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Trabajos realizados</h6>
+                            </div>
+                            <div class="gallery-list d-flex justify-content-between flex-wrap">
+                                <a href="img/bg-img/bg-8.png" class="gallery-img" title="Gallery Image 1"><img src="img/bg-img/bg-8.png" alt=""></a>
+                                <a href="img/bg-img/bg-9.png" class="gallery-img" title="Gallery Image 2"><img src="img/bg-img/bg-9.png" alt=""></a>
+                                <a href="img/bg-img/bg-5.jpg" class="gallery-img" title="Gallery Image 3"><img src="img/bg-img/bg-5.jpg" alt=""></a>
+                                <a href="img/bg-img/bg-4.png" class="gallery-img" title="Gallery Image 4"><img src="img/bg-img/bg-4.png" alt=""></a>
+                                <a href="img/bg-img/bg-3.jpg" class="gallery-img" title="Gallery Image 5"><img src="img/bg-img/bg-3.jpg" alt=""></a>
+                                <a href="img/bg-img/bg-2.jpg" class="gallery-img" title="Gallery Image 6"><img src="img/bg-img/bg-2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Contacto</h6>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-placeholder"></i>
+                                <p>Oficina central: Perú 863, CABA</p>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-telephone-1"></i>
+                                <p>Tel 1: +54 9 3815 39-1065 <br>Tel 2: +54 9 11 3612-5667</p>
+                            </div>
+                            <div class="single-contact d-flex">
+                                <i class="icon-contract"></i>
+                                <p>Ventas@paveco.com.ar</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="bottom-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright PAVECO &copy;<script>document.write(new Date().getFullYear());</script>| Todos los derechos reservados.
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    <!-- ##### Footer Area End ##### -->
 
     <!-- ##### JavaScript ##### -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
