@@ -1,4 +1,7 @@
+---
 deployment:
   tasks:
-    - export GIT_WORK_TREE=$HOME/public_html
-    - git checkout -f
+    - export DEPLOYPATH=/home/usuario/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+
