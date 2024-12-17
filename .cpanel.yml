@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export GIT_WORK_TREE=$HOME/public_html
+    - git checkout -f
