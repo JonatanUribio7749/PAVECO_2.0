@@ -2,6 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/paveco/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - echo "Deploying index.html to $DEPLOYPATH"
+    - /bin/cp /home/paveco/repositories/PAVECO_2_1/index.html $DEPLOYPATH
+    - echo "Deploying style.css to $DEPLOYPATH"
+    - /bin/cp /home/paveco/repositories/PAVECO_2_1/style.css $DEPLOYPATH
 
